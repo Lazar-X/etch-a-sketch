@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#center {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid red;
+    margin: 0px auto;
+}
+#container {
+    display: flex;
+}
+#gridRow {
+    display: flex;
+}
+.gridBlock {
+    border: 3px solid black;
+    padding: 10px;
+    background-color: aqua;
+}
